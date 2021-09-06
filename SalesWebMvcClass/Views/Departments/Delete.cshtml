@@ -1,8 +1,6 @@
 ﻿@model SalesWebMvcClass.Models.Department
 
-@{
-    ViewData["Title"] = "Delete";
-}
+@{ ViewData["Title"] = "Delete"; }
 
 <h2>Delete</h2>
 
@@ -18,7 +16,7 @@
             @Html.DisplayFor(model => model.Name)
         </dd>
     </dl>
-    
+
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
         <input type="submit" value="Delete" class="btn btn-default" /> |

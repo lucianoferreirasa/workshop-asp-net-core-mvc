@@ -10,7 +10,7 @@ using SalesWebMvcClass.Services.Exceptions;
 using System.Diagnostics;
 using SalesWebMvc.Services.Exceptions;
 
-namespace SalesWebMvc.Controllers
+namespace SalesWebMvcClass.Controllers
 {
     public class SellersController : Controller
     {
